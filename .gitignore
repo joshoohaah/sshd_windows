@@ -1,3 +1,4 @@
 Berksfile.lock
 Vagrantfile
 .vagrant
+.kitchen.cloud.yml

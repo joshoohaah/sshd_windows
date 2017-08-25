@@ -1,0 +1,17 @@
+{
+  "id": "2012-run-windows-2012",
+  "chef_environment": "_default",
+  "automatic": {
+    "ipaddress": "10.227.160.116",
+    "platform": "windows",
+    "fqdn": "WIN-T43VABDNTGB",
+    "recipes": [
+      "ssh_windows"
+    ]
+  },
+  "normal": {
+  },
+  "run_list": [
+    "recipe[ssh_windows]"
+  ]
+}
